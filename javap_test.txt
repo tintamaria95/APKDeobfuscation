@@ -1,0 +1,85 @@
+Classfile /home/tintamaria95/Documents/nlp_scraping/Subtemp.class
+  Last modified May 24, 2023; size 394 bytes
+  MD5 checksum a7ece4da42b48c1559abcbb5d1582f37
+  Compiled from "Temp.java"
+class Subtemp implements interfaceSubTemp
+  minor version: 0
+  major version: 55
+  flags: (0x0020) ACC_SUPER
+  this_class: #3                          // Subtemp
+  super_class: #4                         // java/lang/Object
+  interfaces: 1, fields: 1, methods: 3, attributes: 1
+Constant pool:
+   #1 = Methodref          #4.#18         // java/lang/Object."<init>":()V
+   #2 = Fieldref           #3.#19         // Subtemp.x:I
+   #3 = Class              #20            // Subtemp
+   #4 = Class              #21            // java/lang/Object
+   #5 = Class              #22            // interfaceSubTemp
+   #6 = Utf8               x
+   #7 = Utf8               I
+   #8 = Utf8               <init>
+   #9 = Utf8               ()V
+  #10 = Utf8               Code
+  #11 = Utf8               LineNumberTable
+  #12 = Utf8               get_x
+  #13 = Utf8               ()I
+  #14 = Utf8               inutile
+  #15 = Utf8               (Ljava/lang/String;)I
+  #16 = Utf8               SourceFile
+  #17 = Utf8               Temp.java
+  #18 = NameAndType        #8:#9          // "<init>":()V
+  #19 = NameAndType        #6:#7          // x:I
+  #20 = Utf8               Subtemp
+  #21 = Utf8               java/lang/Object
+  #22 = Utf8               interfaceSubTemp
+{
+  int x;
+    descriptor: I
+    flags: (0x0000)
+
+  public Subtemp();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: bipush        10
+         7: putfield      #2                  // Field x:I
+        10: return
+      LineNumberTable:
+        line 26: 0
+        line 27: 4
+        line 28: 10
+
+  public int get_x();
+    descriptor: ()I
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #2                  // Field x:I
+         4: ireturn
+      LineNumberTable:
+        line 31: 0
+
+  public int inutile(java.lang.String);
+    descriptor: (Ljava/lang/String;)I
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=4, args_size=2
+         0: iconst_1
+         1: istore_2
+         2: iconst_2
+         3: istore_3
+         4: iload_2
+         5: iload_3
+         6: iadd
+         7: ireturn
+      LineNumberTable:
+        line 36: 0
+        line 37: 2
+        line 38: 4
+}
+SourceFile: "Temp.java"

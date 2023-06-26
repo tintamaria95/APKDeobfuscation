@@ -1,0 +1,5 @@
+scraped_data/
+proguard/
+apps/
+__pycache__
+*.class
